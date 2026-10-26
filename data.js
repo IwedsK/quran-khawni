@@ -29,24 +29,14 @@ window.CONFIG = {
       key: 'q', icon: 'quran', title: 'قرآن خوانی', subtitle: 'محفلِ قرآن خوانی و دعا',
       badge: 'صرف خواتین کے لیے', theme: 'rose',
       inviteOnly: true, // only shown to guests whose link includes q (Yes in the sheet)
-      day: 'جمعہ', dateText: '۲۰ نومبر ۲۰۲۶', date: '2026-11-20', start: '12:00', end: '15:00',
+      day: 'جمعرات', dateText: '۱۹ نومبر ۲۰۲۶', date: '2026-11-19', start: '12:00', end: '14:30',
       schedule: [
         ['قرآن خوانی', 'دوپہر ۱۲ بجے'],
         ['دعا', 'دوپہر ۲ بجے'],
-        ['اختتام', 'سہ پہر ۳ بجے'],
       ],
       venue: 'رہائش گاہِ دولہا',
       address: 'گلی نمبر ۱۱، مسلم ٹاؤن، بہاولپور',
       map: 'https://maps.app.goo.gl/yjNekwX1TGLs3Xd8A',
-      // ladies hosting this event (shown inside this card only)
-      hostsTitle: 'منتظرات',
-      hosts: [
-        { title: 'دولہا کی والدہ', names: ['محترمہ رضوانہ شکور'] },
-        { title: 'دولہا کی خالہ', names: ['محترمہ نورین نثار'] },
-        { title: 'دولہا کی بہنیں', names: ['اقصیٰ نثار', 'اریبہ نثار', 'حفصہ نثار', 'فاطمہ شکور'] },
-        { title: 'دولہا کی بھانجیاں', names: ['انوشہ نثار', 'ابیرش نثار', 'علیشہ نثار', 'عائشہ نثار'] },
-        { title: 'دولہا کی بھتیجی', names: ['عفاف بنتِ سعد'] },
-      ],
     },
     {
       key: 'n', icon: 'nikah', title: 'نکاح', subtitle: 'تقریبِ عقدِ نکاح',
